@@ -29,17 +29,17 @@ Antarmuka konfigurasi Kali NetHunter memungkinkan Anda untuk dengan mudah mengko
 1.
 pkg update && pkg upgrade
 pkg install axel proot unzip zip tar wget curl
-wget https://raw.githubusercontent.com/Mehanic385/Kali-Nethunter/master/Kali-Nethunter
+wget https://raw.githubusercontent.com/Mehanic385/Nethunter-Rootless/master/Kali-Nethunter
 chmod +x Kali-Nethunter && ./Kali-Nethunter
 ````
 # Simple Install Kali-Nethunter 
 ````
 pkg update && pkg upgrade
 pkg install axel proot curl wget git
-git clone https://github.com/Mehanic385/Kali-Nethunter &&
-cd Kali-Nethunter &&
-chmod +x * && 
-./Kali-Nethunter
+git clone https://github.com/Mehanic385/Nethunter-Rootless &&
+cd Nethunter-Rootless &&
+sh install.sh
+
 ````
 # Greetings From kali.org
 Thank you kali.org because you have made Kali-Nethunter for android
